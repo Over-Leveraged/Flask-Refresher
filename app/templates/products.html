@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block css %}
+    <link rel="stylesheet" href="../static/css/app.css">
+{% endblock %}
+
+{% block main %}
+
+<div class = "products">
+    <div class = "row">
+        {% for product in products %}
+            <div class = "col-4"> 
+                <div class = "product">
+                    
+                    <a href="/product/{{ product.id }}"><img src="{{ url_for('static', filename=product.image) }}" href = "/product/{{ product.id }}"  alt="{{ product.name }}"></a>
+                    <div class = "info-container">
+                        <a href="/product/{{ product.id }}" class = "fs-5">{{ product.name }}</a>
+                        <p class = "fs-6">${{ product.price }}</p>
+                    </div>
+
+                </div>
+            
+        </div>
+        {% endfor %}
+    </div>
+
+</div>
+
+{% endblock %}
+

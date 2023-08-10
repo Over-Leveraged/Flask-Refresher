@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block css %}{% endblock %}
+
+{% block main %}
+<div class="p-5 mb-4 bg-light rounded-3 border text-center">
+  <div class="container-fluid py-5 ">
+    <h1 class="display-5 fw-bold">The Watch Shop</h1>
+    <p class = "fs-4 ">Akiel Walsh</p>
+
+    <img src="{{ url_for('static', filename='images/pic2.jpg') }}" alt="Akiel Walsh" width="200" height="200" class = "rounded-circle">
+
+    <p class = "fs-4 ">Team: The Focal Point</p>
+    <button class="btn btn-primary btn-lg" type="button" onclick="window.location.href='/products'">View Products</button>
+
+  </div>
+</div>
+{% endblock %}
+
+{% block js %}{% endblock %}

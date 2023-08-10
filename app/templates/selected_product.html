@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block css %}
+    <link rel="stylesheet" href="../static/css/app.css">
+{% endblock %}
+
+{% block main %}
+
+<div class = "selected-product">
+    <div class = "row">
+        <div class = "col-4"> 
+            <div class = "product">      
+                <img src="{{ url_for('static', filename=product.image) }}" alt="{{ product.name }}">
+                
+
+                <!-- <div class = "info-container">
+
+                    <a href="/product/{{ product.id }}">{{ product.name }}</a>
+                    <p>{{ product.price }}</p>
+
+                </div> -->
+
+            </div>
+        </div>
+        <div class = "col-8">
+            <div class = "product-description">
+                <h2>{{ product.name }}</h2>
+                <h4>${{ product.price }}</h4>
+                <p>{{ product.description }}</p>
+            </div>
+            <button class="btn btn-primary btn-lg" type="button"> Add to Cart</button>
+        </div>
+    </div>
+
+
+
+{% endblock %}
