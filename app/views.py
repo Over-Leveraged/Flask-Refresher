@@ -37,7 +37,7 @@ products1 = [
             "name": "Omega Seamaster 300M",
             "price": 6000,
             "image": "images/Omega Seamaster.webp",
-            "description": "The watch is in New/Unworn condition, with no signs of wear. The pictures are very representative of the condition. Omega Seamaster Diver 300M Blue Dial, reference 210.22.42.20.03.002"
+            "description": "The watch is in New/Unworn condition, with no signs of wear. The pictures are very representative of the condition. Omega Seamaster Diver 300M Blue Dial."
         },
         {
             "id": 6,
