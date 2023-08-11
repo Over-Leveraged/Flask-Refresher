@@ -28,7 +28,7 @@ products1 = [
         {
             "id": 4,
             "name": "Audemars Piguet Royal Oak",
-            "price": 400,
+            "price": 115999,
             "image": "images/AudemarsPiguetRoyalOak.jpg",
             "description": "A must have example of simple and clean, the Royal Oak Extra Thin Tourbillon is a welcome take on the impressive offerings from Audemars Piguet. The 18k rose gold 41 mm case is assembled with a matching, fixed bezel, blue petite tapisserie dial, and a screw-down crown. This timepiece is powered by a 2924 calibre with a 70-hour power reserve and power reserve indicator."
         },

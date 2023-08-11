@@ -50,10 +50,34 @@ body {
 
 .info-container .fs-5:hover  {
     text-decoration: none;
-    color: #2315e4;
+    color: #023F30;
 }
 
+.rounded-square {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px; 
+    overflow: hidden; 
+}
 
+.bg-col-secondary {
+    background-color: #023F30;
+}
 
+.btn-col-secondary {
+    background-color: #023F30;
+    border-color: #023F30;
+    color: #fff;
 
+}
 
+.btn-col-secondary:hover {
+    background-color: #037055;
+    border-color: #036e54;
+    color: #fff;
+}
+
+.banner-bkg {
+    background-color: #023F30;
+    color: #fff;
+}
